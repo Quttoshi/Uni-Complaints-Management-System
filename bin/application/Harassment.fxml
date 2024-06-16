@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane prefHeight="447.0" prefWidth="694.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.HarassmentController">
+   <left>
+      <AnchorPane prefHeight="441.0" prefWidth="693.0" BorderPane.alignment="CENTER">
+         <children>
+            <Pane prefHeight="454.0" prefWidth="138.0" style="-fx-background-color: #ADD8E6;">
+               <children>
+                  <Text layoutX="29.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome">
+                     <font>
+                        <Font name="Malgun Gothic" size="17.0" />
+                     </font>
+                  </Text>
+                  <Button fx:id="h_signout" layoutX="33.0" layoutY="409.0" mnemonicParsing="false" style="-fx-background-color: #565051;" text="Sign Out" textFill="WHITE">
+                     <font>
+                        <Font name="Malgun Gothic" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="h_return" layoutX="26.0" layoutY="14.0" mnemonicParsing="false" style="-fx-background-color: #565051;" text="⏎ Return" textFill="WHITE">
+                     <font>
+                        <Font name="Malgun Gothic" size="12.0" />
+                     </font>
+                  </Button>
+                  <Label fx:id="h_welcome" layoutX="28.0" layoutY="98.0" >
+                     <font>
+                        <Font name="Malgun Gothic" size="12.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="h_lostfound" layoutX="4.0" layoutY="144.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="132.0" style="-fx-background-color: #93E9BE;" text="Lost and Found" textFill="#2b19ec">
+                     <font>
+                        <Font name="Malgun Gothic" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="h_academic" layoutX="10.0" layoutY="190.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="119.0" style="-fx-background-color: #93E9BE;" text="Academic Issues" textFill="#2b19ec">
+                     <font>
+                        <Font name="Malgun Gothic" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="h_library" layoutX="38.0" layoutY="233.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="55.0" style="-fx-background-color: #93E9BE;" text="Library" textFill="#2b19ec">
+                     <font>
+                        <Font name="Malgun Gothic" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="h_cafeteria" layoutX="29.0" layoutY="273.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="74.0" style="-fx-background-color: #93E9BE;" text="Cafeteria" textFill="#2b19ec">
+                     <font>
+                        <Font name="Malgun Gothic" size="12.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+            <Text layoutX="147.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Harassment/Discrimination Dashboard" wrappingWidth="417.83392333984375">
+               <font>
+                  <Font name="Malgun Gothic" size="21.0" />
+               </font>
+            </Text>
+            <Text layoutX="147.0" layoutY="267.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Details">
+               <font>
+                  <Font name="Malgun Gothic" size="17.0" />
+               </font>
+            </Text>
+            <TextArea fx:id="h_details" layoutX="147.0" layoutY="279.0" prefHeight="72.0" prefWidth="333.0" promptText="Details of the case" />
+            <Button fx:id="h_submit" layoutX="621.0" layoutY="409.0" mnemonicParsing="false" style="-fx-background-color: #565051;" text="Submit" textFill="WHITE">
+               <font>
+                  <Font name="Malgun Gothic" size="12.0" />
+               </font>
+            </Button>
+            <Text layoutX="147.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Victim's Name">
+               <font>
+                  <Font name="Malgun Gothic" size="17.0" />
+               </font>
+            </Text>
+            <Text layoutX="147.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Accused">
+               <font>
+                  <Font name="Malgun Gothic" size="17.0" />
+               </font>
+            </Text>
+            <TextField fx:id="h_victimfirstname" layoutX="147.0" layoutY="92.0" promptText="First Name" />
+            <TextField fx:id="h_victimlastname" layoutX="323.0" layoutY="92.0" promptText="Last Name" />
+            <TextField fx:id="h_accusedfirstname" layoutX="147.0" layoutY="164.0" promptText="First Name" />
+            <TextField fx:id="h_accusedlastname" layoutX="323.0" layoutY="164.0" promptText="Last Name" />
+            <Text fill="#ff2525" layoutX="147.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*If you know the name, plase write otherwise leave empty" />
+         </children>
+      </AnchorPane>
+   </left>
+</BorderPane>
