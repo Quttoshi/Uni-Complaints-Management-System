@@ -3,7 +3,6 @@
 SDA PROJECT
 
 Shehbaz Karim			21I2525
-Shabo Kiran		        21I2579
 
 SECTION A
 FAST NUCES ISLAMABAD CAMPUS
