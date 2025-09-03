@@ -71,11 +71,5 @@ src/
 4. Push to branch (`git push origin feature/new-feature`)
 5. Open Pull Request
 
-## 🔮 Future Enhancements
-
-- [ ] Web-based interface
-- [ ] Email notifications
-- [ ] File attachment support
-- [ ] Advanced analytics dashboard
 
 *Built for better educational experiences* 🎓
