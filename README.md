@@ -2,7 +2,7 @@
 
 A JavaFX-based desktop application that enables students to submit complaints and feedback while allowing faculty to review and resolve them efficiently. Built with Java, FXML, and SQL database integration.
 
-## ✨ Features
+## Features
 
 - **Student Portal**: Submit and track complaints with an intuitive interface
 - **Faculty Dashboard**: Review, manage, and resolve student complaints
@@ -10,21 +10,21 @@ A JavaFX-based desktop application that enables students to submit complaints an
 - **SQL Database Integration**: Efficient data storage and management
 - **Real-time Status Updates**: Track complaint progress from submission to resolution
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend**: JavaFX with FXML
 - **Backend**: Java
 - **Database**: SQL (MySQL/SQLite)
 - **IDE**: IntelliJ IDEA, Eclipse, or NetBeans
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Java JDK 8 or higher
 - JavaFX SDK
 - MySQL/SQLite database
 - IDE with JavaFX support
 
-## 🚀 Quick Start
+## Quick Start
 
 1. **Clone the repository**
    ```bash
@@ -42,7 +42,7 @@ A JavaFX-based desktop application that enables students to submit complaints an
    - Configure JavaFX libraries
    - Build and run the main class
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 src/
@@ -55,7 +55,7 @@ src/
 └── Main.java        # Entry Point
 ```
 
-## 💻 Usage
+## Usage
 
 ### Students
 - Login → Submit new complaint → Track status
@@ -63,7 +63,7 @@ src/
 ### Faculty/Admin
 - Login → View complaints → Update status → Resolve issues
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create feature branch (`git checkout -b feature/new-feature`)
@@ -72,4 +72,4 @@ src/
 5. Open Pull Request
 
 
-*Built for better educational experiences* 🎓
+*Built for better educational experiences* 
